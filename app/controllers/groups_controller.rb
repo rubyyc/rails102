@@ -41,7 +41,7 @@ class GroupsController < ApplicationController
   end
 
   def destroy
-    
+
 
     @group.destroy
     flash[:alert] = "Group deleted"
