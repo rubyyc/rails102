@@ -1,4 +1,6 @@
-source 'https://rubygems.org'
+#source 'https://rubygems.org'
+source 'https://gems.ruby-china.com'
+
 
 git_source(:github) do |repo_name|
   repo_name = "#{repo_name}/#{repo_name}" unless repo_name.include?("/")
@@ -45,6 +47,7 @@ gem 'jbuilder', '~> 2.5'
 gem 'bootstrap-sass' #bootstrap
 gem 'simple_form' #简化表单
 gem 'devise'  #会员系统
+gem 'will_paginate' #'分页'
 
 
 
